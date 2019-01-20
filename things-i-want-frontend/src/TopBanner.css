@@ -1,0 +1,19 @@
+.top-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    border-bottom: 1px solid #ccc;
+    font-size: 15px;
+}
+#add-button {
+    position: absolute;
+    right: 20px;
+    background-color: #eee;
+    font-family: Montserrat;
+    font-size: 12px;
+    box-shadow: none;
+    border: none;
+    width: 80px;
+    height: 30px;
+}
