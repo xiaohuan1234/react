@@ -1,0 +1,174 @@
+.App {
+  text-align: center;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    min-width: 800px;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+#add-product-btn {
+    position:fixed;
+    right: 50px;
+    bottom: 50px;    
+    border-radius: 50%;
+    font-size: 30px;
+    border: none;
+    background: transparent;
+    color: #333;
+}
+
+#add-product-btn:hover {
+    cursor: pointer;
+}
+
+.title-banner {
+    border-bottom: 1px solid rgb(220, 220, 220); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.title-content {    
+    margin: 35px;
+    text-align: center;
+    letter-spacing: 4px;       
+    font-size: 15px;        
+}
+.main {
+    height: 100vh;
+    width: inherit;
+    background:  #f6f4f0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.carousel-control {    
+    margin-top: 80px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    font-size: 10px;
+    font-weight: 300;
+}
+.carousel-control button {
+    border: none;
+    background: transparent;    
+}
+.carousel-control button:hover {
+    cursor: pointer;
+}
+
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: 10px auto;
+  padding: 10px 10px 30px 30px;
+  border: 1px solid #888;
+  width: 50%;
+}
+
+/* The Close Button */
+.close-product-modal {
+  color: #aaaaaa;
+  float: right;
+  font-size: 15px;
+  font-weight: bold;
+
+}
+
+
+.modal-content {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.product-info {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 20px 0 0;
+}
+.product-info input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 200;
+    color: #333;
+    letter-spacing: 1px;
+    margin: 10px 0;
+    padding: 5px;
+    height: 30px;
+}
+.product-info input::placeholder {
+    font-size: 13px;
+    color: #aaa;
+    font-weight: 200;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+}
+.modal-footer {
+    display: flex;
+    margin-top: 20px;
+    justify-content: flex-end;
+}
+.modal-footer button {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10px;
+    border: none;
+    background: transparent;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: #999;
+}
+.modal-footer button:hover {
+    cursor: pointer;
+    color: black;
+}
+.modal-header {
+    position: relative;
+    top: 20px;
+    right: 20px;    
+}
+.background-option {
+    height: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.background-option label {    
+    margin: 12px 10px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+}
+.background-option select {
+    font-weight: 200;
+    width: 80px;
+    height: 30px;
+    margin: 12px 10px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+.close-product-modal:hover {
+    cursor: pointer;
+}

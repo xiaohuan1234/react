@@ -1,0 +1,74 @@
+.carousel-card {
+    width: 560px;
+    height: 350px;    
+    position: relative;
+    top: 80px;
+    background: white;
+    display: flex;
+    flex-wrap: nowrap;
+    box-shadow: 0px 0px 3px 3px rgb(220, 220, 220);
+}
+.photo {
+    width: 55%;
+    height: inherit;    
+    background-position: bottom;    
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.text {
+    width: 45%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    box-sizing: content-box;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.price {
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.brand,
+.name,
+.color{
+    margin-bottom: 15px;
+}
+.brand {
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.name {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.color {
+    font-size: 12px;
+}
+.color span {
+    text-transform: uppercase;
+}
+.edit-btn,
+.delete-btn {
+    border: none;
+    background: transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 200;
+    color: #666;
+    letter-spacing: 1px;
+}
+.edit-btn:hover,
+.edit-btn:focus,
+.delete-btn:hover,
+.delete-btn:focus {
+    color: #000;
+    font-weight: normal;
+    text-decoration: none;
+    cursor: pointer;
+}
+
