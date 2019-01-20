@@ -1,0 +1,11 @@
+.Row {
+    background: #A52A2A;
+    color: #87CEFA;
+    font-size: 30px;
+    margin: 5px;
+    padding: 20px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

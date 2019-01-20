@@ -1,0 +1,11 @@
+.Row-with-children {
+    background: #000080;
+    color: #FDF5E6;
+    font-size: 30px;
+    margin: 5px;
+    padding: 20px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
